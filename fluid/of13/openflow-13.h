@@ -342,6 +342,10 @@ enum oxm_ofb_match_fields {
     OFPXMT_OFB_IPV6_EXTHDR = 39 /* IPv6 Extension Header pseudo-field */
 };
 
+enum nxm_match_fields {
+  NXM_TUNNEL_IPV4_DST = 32
+};
+
 /* The VLAN id is 12-bits, so we can use the entire 16 bits to indicate
  * special conditions.
  */
